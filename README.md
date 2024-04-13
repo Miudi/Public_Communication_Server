@@ -5,7 +5,7 @@ This project contains Java code for an application server. The server handles co
 
 ## Project Structure
 The project consists of three main classes:
-1. **SERVER**: The main class representing the application server. It listens for incoming connections on a specified port (5555) and creates separate threads to handle each connection.
+1. **SERVER**: The main class representing the application server. It listens for incoming connections on a specified port and creates separate threads to handle each connection.
 2. **ClientHandler**: A class handling client threads. Each client connection is managed by a separate thread, which receives data from the client, performs database queries, and sends responses back.
 3. **FileHandler**: A class handling log file writing. It is used to log information about connections and server actions.
 
